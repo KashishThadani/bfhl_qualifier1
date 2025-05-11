@@ -4,9 +4,9 @@ import requests
 generate_url = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/PYTHON"
 
 payload = {
-    "name": "Kashish Thadani",          # Replace with your name
-    "regNo": "0827AL221069",            # Replace with your registration number
-    "email": "kashishthadani05@gmail.com"  # Replace with your email
+    "name": "Kashish Thadani",         
+    "regNo": "0827AL221069",           
+    "email": "kashishthadani05@gmail.com"  
 }
 
 response = requests.post(generate_url, json=payload)
